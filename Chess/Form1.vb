@@ -803,7 +803,7 @@
         x = 4
         y = 7
         If selected <> True Then
-              ga.re_can_move()
+            ga.re_can_move()
             sel_piece = ga.selection(x, y)
             sel_x = x
             sel_y = y
