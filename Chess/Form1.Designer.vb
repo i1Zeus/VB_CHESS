@@ -805,7 +805,9 @@ Partial Class Form1
         '
         'Newgame
         '
-        Me.Newgame.Location = New System.Drawing.Point(722, 192)
+        Me.Newgame.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Newgame.Font = New System.Drawing.Font("Android 7", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Newgame.Location = New System.Drawing.Point(722, 186)
         Me.Newgame.Name = "Newgame"
         Me.Newgame.Size = New System.Drawing.Size(170, 36)
         Me.Newgame.TabIndex = 64
