@@ -7,3 +7,14 @@ C:\Users\ANKIT\documents\visual studio 2010\Projects\Chess\Chess\obj\x86\Debug\C
 C:\Users\ANKIT\documents\visual studio 2010\Projects\Chess\Chess\obj\x86\Debug\Chess.exe
 C:\Users\ANKIT\documents\visual studio 2010\Projects\Chess\Chess\obj\x86\Debug\Chess.xml
 C:\Users\ANKIT\documents\visual studio 2010\Projects\Chess\Chess\obj\x86\Debug\Chess.pdb
+G:\GitHub\VB_CHESS\Chess\bin\Debug\Chess.exe
+G:\GitHub\VB_CHESS\Chess\bin\Debug\Chess.pdb
+G:\GitHub\VB_CHESS\Chess\bin\Debug\Chess.xml
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.vbproj.AssemblyReference.cache
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.Form1.resources
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.Resources.resources
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.vbproj.GenerateResource.cache
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.vbproj.CoreCompileInputs.cache
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.exe
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.xml
+G:\GitHub\VB_CHESS\Chess\obj\x86\Debug\Chess.pdb

@@ -6,86 +6,105 @@ Chess
 </name>
 </assembly>
 <members>
+<member name="T:Chess.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:Chess.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.Aha_Soft_Chess_Chess">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.Aha_Soft_Chess_Chess">
+<summary>
   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.bBishop">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.bBishop">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.bKing">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.bKing">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.bKnight">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.bKnight">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.bPawn">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.bPawn">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.bQueen">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.bQueen">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.bRook">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.bRook">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.check">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.check">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.game_mainBg_07___Copy">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.game_mainBg_07___Copy">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.selection">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.selection">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.V_Move">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.V_Move">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.Wbishop">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.Wbishop">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.wKing">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.wKing">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.wKnight">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.wKnight">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.wPawn">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.wPawn">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.wQueen">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.wQueen">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Chess.My.Resources.Resources.wRook">
-	<summary>
+</member>
+<member name="P:Chess.My.Resources.Resources.wRook">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:Chess.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>
