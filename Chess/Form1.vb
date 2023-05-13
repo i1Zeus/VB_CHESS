@@ -13,13 +13,13 @@
     Public b_knight(1) As knight
     Public b_rook(1) As rook
     Public b_pawn(7) As pawn
-
     Public ga As game
     Public x, y, sel_x, sel_y As Integer
-    Public selected As Boolean = False      '' this is to check if a piece is selected by player or not
+    Public selected As Boolean = False      '! this is to check if a piece is selected by player or not
     Public sel_piece As String = Nothing
+    Public Seconds As Integer = 0
+    Public Minutes As Integer = 0
     Private Sub Newgame_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Newgame.Click
-
         pb = New PictureBox(7, 7) {{Me.p00, Me.p01, Me.p02, Me.p03, Me.p04, Me.p05, Me.p06, Me.p07},
                                 {Me.p10, Me.p11, Me.p12, Me.p13, Me.p14, Me.p15, Me.p16, Me.p17},
                                 {Me.p20, Me.p21, Me.p22, Me.p23, Me.p24, Me.p25, Me.p26, Me.p27},
@@ -27,15 +27,16 @@
                                 {Me.p40, Me.p41, Me.p42, Me.p43, Me.p44, Me.p45, Me.p46, Me.p47},
                                 {Me.p50, Me.p51, Me.p52, Me.p53, Me.p54, Me.p55, Me.p56, Me.p57},
                                 {Me.p60, Me.p61, Me.p62, Me.p63, Me.p64, Me.p65, Me.p66, Me.p67},
-                                {Me.p70, Me.p71, Me.p72, Me.p73, Me.p74, Me.p75, Me.p76, Me.p77}}   ' pictureboxes on chessboard
-
+                                {Me.p70, Me.p71, Me.p72, Me.p73, Me.p74, Me.p75, Me.p76, Me.p77}}   '! picture boxes on chessboard
         all_objects()
         ga.re_can_move()
         ga.show()
         ga.re_back()
         ga.fill_chk_for_black()
         ga.fill_chk_for_white()
-
+        Seconds = 0
+        Minutes = 0
+        Timer1.Start()
     End Sub
 
     Public Sub all_objects()
@@ -56,7 +57,7 @@
         w_pawn(6) = New pawn(1, 6, 6)
         w_pawn(7) = New pawn(1, 7, 6)
 
-        '''''''''''''''''''''''''''''''''''''''  BLACK PIECES OBJECTS''''''''''''''''' 
+        '! BLACK PIECES OBJECTS
 
         b_king = New king(7, 4, -1)
         b_queen = New queen(7, 3, -2)
@@ -75,9 +76,7 @@
         b_pawn(6) = New pawn(6, 6, -6)
         b_pawn(7) = New pawn(6, 7, -6)
 
-
         ga = New game()
-
 
     End Sub             ''initialization of all objects
 
@@ -803,7 +802,7 @@
         x = 4
         y = 7
         If selected <> True Then
-              ga.re_can_move()
+            ga.re_can_move()
             sel_piece = ga.selection(x, y)
             sel_x = x
             sel_y = y
@@ -1252,7 +1251,20 @@
         End If
     End Sub
 
-    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Timer1.Interval = 1000
+        Seconds += 1
+        If Seconds = 60 Then
+            Minutes += 1
+            Seconds = 0
+        End If
+        Label1.Text = "Timer: " & Minutes & " : " & Seconds
+        Timer1.Start() '! Timer starts functioning
+    End Sub
+    Private Sub stopGame_Click(sender As Object, e As EventArgs) Handles stopGame.Click
+        Timer1.Stop()
+    End Sub
+    Private Sub Reusme_Click(sender As Object, e As EventArgs) Handles Reusme.Click
+        Timer1.Start()
     End Sub
 End Class
