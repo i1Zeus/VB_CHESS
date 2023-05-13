@@ -197,7 +197,7 @@
     <None Include="Resources\bBishop.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bKing.png" />
+    <None Include="Resources\b_King.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bKnight.png" />

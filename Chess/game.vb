@@ -367,7 +367,7 @@
                 End If
             Next
         Next
-   
+
         '''''''''''''''''''''''''''''''''''''''''White Check'''''''''''''''''''''''''''''''''''
         For i As Integer = 0 To 7
             For j As Integer = 0 To 7
