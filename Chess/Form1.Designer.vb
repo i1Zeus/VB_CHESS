@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.p70 = New System.Windows.Forms.PictureBox()
         Me.p71 = New System.Windows.Forms.PictureBox()
@@ -88,6 +89,11 @@ Partial Class Form1
         Me.p01 = New System.Windows.Forms.PictureBox()
         Me.p00 = New System.Windows.Forms.PictureBox()
         Me.Newgame = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.stopGame = New System.Windows.Forms.Button()
+        Me.Reusme = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.p70, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p71, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p72, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -152,6 +158,7 @@ Partial Class Form1
         CType(Me.p02, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p01, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p00, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'p70
@@ -806,13 +813,66 @@ Partial Class Form1
         'Newgame
         '
         Me.Newgame.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Newgame.Font = New System.Drawing.Font("Android 7", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Newgame.Location = New System.Drawing.Point(722, 186)
+        Me.Newgame.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Newgame.Location = New System.Drawing.Point(0, 253)
         Me.Newgame.Name = "Newgame"
-        Me.Newgame.Size = New System.Drawing.Size(170, 36)
+        Me.Newgame.Size = New System.Drawing.Size(202, 45)
         Me.Newgame.TabIndex = 64
         Me.Newgame.Text = "New Game"
         Me.Newgame.UseVisualStyleBackColor = True
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Reusme)
+        Me.Panel1.Controls.Add(Me.stopGame)
+        Me.Panel1.Controls.Add(Me.Newgame)
+        Me.Panel1.Location = New System.Drawing.Point(708, 23)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(202, 674)
+        Me.Panel1.TabIndex = 65
+        '
+        'stopGame
+        '
+        Me.stopGame.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.stopGame.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stopGame.Location = New System.Drawing.Point(0, 375)
+        Me.stopGame.Name = "stopGame"
+        Me.stopGame.Size = New System.Drawing.Size(202, 45)
+        Me.stopGame.TabIndex = 66
+        Me.stopGame.Text = "Stop"
+        Me.stopGame.UseVisualStyleBackColor = True
+        '
+        'Reusme
+        '
+        Me.Reusme.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Reusme.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Reusme.Location = New System.Drawing.Point(0, 314)
+        Me.Reusme.Name = "Reusme"
+        Me.Reusme.Size = New System.Drawing.Size(202, 45)
+        Me.Reusme.TabIndex = 67
+        Me.Reusme.Text = "Reusme"
+        Me.Reusme.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
+        'Label1
+        '
+        Me.Label1.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Cursor = System.Windows.Forms.Cursors.AppStarting
+        Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label1.Font = New System.Drawing.Font("Zilla Slab Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(3, 201)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(82, 29)
+        Me.Label1.TabIndex = 68
+        Me.Label1.Text = "Timer:"
         '
         'Form1
         '
@@ -820,8 +880,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Chess.My.Resources.Resources.MainBG
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(913, 721)
-        Me.Controls.Add(Me.Newgame)
+        Me.ClientSize = New System.Drawing.Size(922, 721)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.p07)
         Me.Controls.Add(Me.p06)
         Me.Controls.Add(Me.p05)
@@ -954,6 +1014,8 @@ Partial Class Form1
         CType(Me.p02, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p01, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p00, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1022,6 +1084,9 @@ Partial Class Form1
     Friend WithEvents p01 As System.Windows.Forms.PictureBox
     Friend WithEvents p00 As System.Windows.Forms.PictureBox
     Friend WithEvents Newgame As System.Windows.Forms.Button
-
-  
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Reusme As Button
+    Friend WithEvents stopGame As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label1 As Label
 End Class
