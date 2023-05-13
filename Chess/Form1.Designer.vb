@@ -90,10 +90,10 @@ Partial Class Form1
         Me.p00 = New System.Windows.Forms.PictureBox()
         Me.Newgame = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.stopGame = New System.Windows.Forms.Button()
-        Me.Reusme = New System.Windows.Forms.Button()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Reusme = New System.Windows.Forms.Button()
+        Me.stopGame = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.p70, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p71, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p72, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -816,48 +816,22 @@ Partial Class Form1
         Me.Newgame.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Newgame.Location = New System.Drawing.Point(0, 253)
         Me.Newgame.Name = "Newgame"
-        Me.Newgame.Size = New System.Drawing.Size(202, 45)
+        Me.Newgame.Size = New System.Drawing.Size(221, 45)
         Me.Newgame.TabIndex = 64
         Me.Newgame.Text = "New Game"
         Me.Newgame.UseVisualStyleBackColor = True
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.Reusme)
         Me.Panel1.Controls.Add(Me.stopGame)
         Me.Panel1.Controls.Add(Me.Newgame)
-        Me.Panel1.Location = New System.Drawing.Point(708, 23)
+        Me.Panel1.Location = New System.Drawing.Point(723, 23)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(202, 674)
+        Me.Panel1.Size = New System.Drawing.Size(221, 675)
         Me.Panel1.TabIndex = 65
-        '
-        'stopGame
-        '
-        Me.stopGame.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.stopGame.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stopGame.Location = New System.Drawing.Point(0, 375)
-        Me.stopGame.Name = "stopGame"
-        Me.stopGame.Size = New System.Drawing.Size(202, 45)
-        Me.stopGame.TabIndex = 66
-        Me.stopGame.Text = "Stop"
-        Me.stopGame.UseVisualStyleBackColor = True
-        '
-        'Reusme
-        '
-        Me.Reusme.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Reusme.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Reusme.Location = New System.Drawing.Point(0, 314)
-        Me.Reusme.Name = "Reusme"
-        Me.Reusme.Size = New System.Drawing.Size(202, 45)
-        Me.Reusme.TabIndex = 67
-        Me.Reusme.Text = "Reusme"
-        Me.Reusme.UseVisualStyleBackColor = True
-        '
-        'Timer1
-        '
-        Me.Timer1.Interval = 1000
         '
         'Label1
         '
@@ -874,13 +848,39 @@ Partial Class Form1
         Me.Label1.TabIndex = 68
         Me.Label1.Text = "Timer:"
         '
+        'Reusme
+        '
+        Me.Reusme.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Reusme.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Reusme.Location = New System.Drawing.Point(0, 314)
+        Me.Reusme.Name = "Reusme"
+        Me.Reusme.Size = New System.Drawing.Size(221, 45)
+        Me.Reusme.TabIndex = 67
+        Me.Reusme.Text = "Reusme"
+        Me.Reusme.UseVisualStyleBackColor = True
+        '
+        'stopGame
+        '
+        Me.stopGame.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.stopGame.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stopGame.Location = New System.Drawing.Point(0, 375)
+        Me.stopGame.Name = "stopGame"
+        Me.stopGame.Size = New System.Drawing.Size(221, 45)
+        Me.stopGame.TabIndex = 66
+        Me.stopGame.Text = "Stop"
+        Me.stopGame.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Chess.My.Resources.Resources.MainBG
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(922, 721)
+        Me.ClientSize = New System.Drawing.Size(966, 722)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.p07)
         Me.Controls.Add(Me.p06)
