@@ -27,14 +27,16 @@
             game_flag = False
         End If
         If game_flag = False Then
-            MsgBox("White Won ")
+            Form1.Timer1.Stop()
+            MsgBox("White Won " & "Time: " & Form1.Minutes & " : " & Form1.Seconds)
             Exit Sub
         End If
         If Form1.w_king.x_pos = x And Form1.w_king.y_pos = y And selected <> "w_king" Then
             game_flag = False
         End If
         If game_flag = False Then
-            MsgBox("Black Won ")
+            Form1.Timer1.Stop()
+            MsgBox("White Won " & "Time: " & Form1.Minutes & " : " & Form1.Seconds)
             Exit Sub
         End If
     End Sub

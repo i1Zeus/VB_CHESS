@@ -17,8 +17,8 @@
     Public x, y, sel_x, sel_y As Integer
     Public selected As Boolean = False      '! this is to check if a piece is selected by player or not
     Public sel_piece As String = Nothing
-    Dim Seconds As Integer = 0
-    Dim Minutes As Integer = 0
+    Public Seconds As Integer = 0
+    Public Minutes As Integer = 0
     Private Sub Newgame_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Newgame.Click
         pb = New PictureBox(7, 7) {{Me.p00, Me.p01, Me.p02, Me.p03, Me.p04, Me.p05, Me.p06, Me.p07},
                                 {Me.p10, Me.p11, Me.p12, Me.p13, Me.p14, Me.p15, Me.p16, Me.p17},

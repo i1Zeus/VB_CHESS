@@ -599,9 +599,9 @@ Partial Class Form1
         'p24
         '
         Me.p24.BackColor = System.Drawing.Color.Transparent
-        Me.p24.Location = New System.Drawing.Point(363, 192)
+        Me.p24.Location = New System.Drawing.Point(362, 192)
         Me.p24.Name = "p24"
-        Me.p24.Size = New System.Drawing.Size(87, 85)
+        Me.p24.Size = New System.Drawing.Size(140, 85)
         Me.p24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.p24.TabIndex = 44
         Me.p24.TabStop = False
