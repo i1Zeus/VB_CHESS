@@ -15,7 +15,7 @@
     Public b_pawn(7) As pawn
     Public ga As game
     Public x, y, sel_x, sel_y As Integer
-    Public selected As Boolean = False      '! this is to check if a piece is selected by player or not
+    Public selected As Boolean = False      '!! this is to check if a piece is selected by player or not
     Public sel_piece As String = Nothing
     Public Seconds As Integer = 0
     Public Minutes As Integer = 0
@@ -27,7 +27,7 @@
                                 {Me.p40, Me.p41, Me.p42, Me.p43, Me.p44, Me.p45, Me.p46, Me.p47},
                                 {Me.p50, Me.p51, Me.p52, Me.p53, Me.p54, Me.p55, Me.p56, Me.p57},
                                 {Me.p60, Me.p61, Me.p62, Me.p63, Me.p64, Me.p65, Me.p66, Me.p67},
-                                {Me.p70, Me.p71, Me.p72, Me.p73, Me.p74, Me.p75, Me.p76, Me.p77}}   '! picture boxes on chessboard
+                                {Me.p70, Me.p71, Me.p72, Me.p73, Me.p74, Me.p75, Me.p76, Me.p77}}   '!! picture boxes on chessboard
         all_objects()
         ga.re_can_move()
         ga.show()
@@ -57,7 +57,7 @@
         w_pawn(6) = New pawn(1, 6, 6)
         w_pawn(7) = New pawn(1, 7, 6)
 
-        '! BLACK PIECES OBJECTS
+        '!! BLACK PIECES OBJECTS
 
         b_king = New king(7, 4, -1)
         b_queen = New queen(7, 3, -2)
@@ -78,7 +78,7 @@
 
         ga = New game()
 
-    End Sub             ''initialization of all objects
+    End Sub             '!'!initialization of all objects
 
     Private Sub p00_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p00.Click
         ga.re_back()
@@ -1259,7 +1259,7 @@
             Seconds = 0
         End If
         Label1.Text = "Timer: " & Minutes & " : " & Seconds
-        Timer1.Start() '! Timer starts functioning
+        Timer1.Start() '!! Timer starts functioning
     End Sub
     Private Sub stopGame_Click(sender As Object, e As EventArgs) Handles stopGame.Click
         Timer1.Stop()

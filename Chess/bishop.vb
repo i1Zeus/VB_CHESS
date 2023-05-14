@@ -4,7 +4,7 @@
     Private flags(7, 7) As Boolean
     Public check_the_king(7, 7) As Boolean
 
-    Public Sub New(ByVal x, ByVal y, ByVal p_val)   'color=+ve val if white color=-ve if black  
+    Public Sub New(ByVal x, ByVal y, ByVal p_val)   '!color=+ve val if white color=-ve if black  
         x_pos = x
         y_pos = y
         piece_val = p_val
@@ -24,7 +24,7 @@
         Return piece_val
     End Function
 
-    Public Function poss_mov() As Boolean(,)    ''To Return possible moves
+    Public Function poss_mov() As Boolean(,)    '!'!To Return possible moves
         re_flags()
         If piece_val > 0 Then
             white_mov()
@@ -35,11 +35,11 @@
         Return flags
     End Function
 
-    Public Sub white_mov()         ''Possible moves for white
+    Public Sub white_mov()         '!'!Possible moves for white
         Dim i As Integer = x_pos
         Dim j As Integer = y_pos
 
-        ''''''''''''''''''''''''' diagnoal left bottom to top (backward) '''''''''''''''''''''''''''
+        '! diagnoal left bottom to top (backward) 
         While (i < 7 And j > 0)
             i = i + 1
             j = j - 1
@@ -53,7 +53,7 @@
             End If
         End While
 
-        '''''''''''''''''''''''''diagnoal left bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal left bottom to top (forward) 
         i = x_pos
         j = y_pos
         While (i > 0 And j < 7)
@@ -70,7 +70,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (backward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (backward) 
         i = x_pos
         j = y_pos
         While (i < 7 And j < 7)
@@ -87,7 +87,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (forward) 
         i = x_pos
         j = y_pos
         While (i > 0 And j > 0)
@@ -109,7 +109,7 @@
         Dim i As Integer = x_pos
         Dim j As Integer = y_pos
 
-        ''''''''''''''''''''''''' diagnoal left bottom to top (backward) '''''''''''''''''''''''''''
+        '! diagnoal left bottom to top (backward) 
         While (i < 7 And j > 0)
             i = i + 1
             j = j - 1
@@ -123,7 +123,7 @@
             End If
         End While
 
-        '''''''''''''''''''''''''diagnoal left bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal left bottom to top (forward) 
         i = x_pos
         j = y_pos
         While (i > 0 And j < 7)
@@ -140,7 +140,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (backward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (backward) 
         i = x_pos
         j = y_pos
         While (i < 7 And j < 7)
@@ -157,7 +157,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (forward) 
         i = x_pos
         j = y_pos
         While (i > 0 And j > 0)

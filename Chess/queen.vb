@@ -4,7 +4,7 @@
     Private flags(7, 7) As Boolean
     Public check_the_king(7, 7) As Boolean
 
-    Public Sub New(ByVal x, ByVal y, ByVal p_val)   'color=+ve val if white color=-ve if black  
+    Public Sub New(ByVal x, ByVal y, ByVal p_val)   '!color=+ve val if white color=-ve if black  
         x_pos = x
         y_pos = y
         piece_val = p_val
@@ -24,7 +24,7 @@
         Return piece_val
     End Function
 
-    Public Function poss_mov() As Boolean(,)    ''to show possible moves
+    Public Function poss_mov() As Boolean(,)    '!'!to show possible moves
         re_flags()
         If piece_val > 0 Then
             white_mov()
@@ -39,7 +39,7 @@
         Dim x As Integer = x_pos
         Dim y As Integer = y_pos
 
-        ''''''''''''''''''''''''' diagnoal left bottom to top (backward) '''''''''''''''''''''''''''
+        '! diagnoal left bottom to top (backward) 
         While (x < 7 And y > 0)
             x = x + 1
             y = y - 1
@@ -53,7 +53,7 @@
             End If
         End While
 
-        '''''''''''''''''''''''''diagnoal left bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal left bottom to top (forward) 
         x = x_pos
         y = y_pos
         While (x > 0 And y < 7)
@@ -70,7 +70,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (backward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (backward) 
         x = x_pos
         y = y_pos
         While (x < 7 And y < 7)
@@ -87,7 +87,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (forward) 
         x = x_pos
         y = y_pos
         While (x > 0 And y > 0)
@@ -103,7 +103,7 @@
             End If
         End While
 
-        '''''''''''''''''''''''''''''''''''''''horizonal and vertical'''''''''''''''''''''''''''
+        '!horizonal and vertical
         If x_pos > 0 Then
             For i As Integer = x_pos - 1 To 0 Step -1
                 If Form1.ga.board(i, y_pos) <= 0 Then
@@ -129,7 +129,7 @@
             Next
         End If
 
-        ''''''''''''this is for column'''''''''''''''''''''''''
+        '!this is for column'!
 
         If y_pos > 0 Then
             For i As Integer = y_pos - 1 To 0 Step -1
@@ -162,7 +162,7 @@
         Dim x As Integer = x_pos
         Dim y As Integer = y_pos
 
-        ''''''''''''''''''''''''' diagnoal left bottom to top (backward) '''''''''''''''''''''''''''
+        '! diagnoal left bottom to top (backward) 
         While (x < 7 And y > 0)
             x = x + 1
             y = y - 1
@@ -176,7 +176,7 @@
             End If
         End While
 
-        '''''''''''''''''''''''''diagnoal left bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal left bottom to top (forward) 
         x = x_pos
         y = y_pos
         While (x > 0 And y < 7)
@@ -193,7 +193,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (backward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (backward) 
         x = x_pos
         y = y_pos
         While (x < 7 And y < 7)
@@ -210,7 +210,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (forward) '''''''''''''''''''''''''''
+        '!diagnoal Right bottom to top (forward) 
         x = x_pos
         y = y_pos
         While (x > 0 And y > 0)
@@ -226,7 +226,7 @@
             End If
         End While
 
-        '''''''''''''''''''''''''''''''''''''''horizonal and vertical'''''''''''''''''''''''''''
+        '!horizonal and vertical
         If x_pos > 0 Then
             For i As Integer = x_pos - 1 To 0 Step -1
                 If Form1.ga.board(i, y_pos) >= 0 Then
@@ -252,7 +252,7 @@
             Next
         End If
 
-        ''''''''''''this is for column'''''''''''''''''''''''''
+        '!this is for column
 
         If y_pos > 0 Then
             For i As Integer = y_pos - 1 To 0 Step -1

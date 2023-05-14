@@ -8,7 +8,7 @@
     Public b_in_danger As Boolean = False
     Public w_in_danger As Boolean = False
     Public Sub New()
-        '!Array for chess_board +ve are for White_pieces -ve are for Black_pieces and 0 are for blank_boxes
+        '!!Array for chess_board +ve are for White_pieces -ve are for Black_pieces and 0 are for blank_boxes
         board = {{5, 4, 3, 2, 1, 3, 4, 5},
                  {6, 6, 6, 6, 6, 6, 6, 6},
                  {0, 0, 0, 0, 0, 0, 0, 0},
@@ -41,7 +41,7 @@
         End If
     End Sub
 
-    '!this is to show images of pieces
+    '!!this is to show images of pieces
     Public Sub show()
 
         For i As Integer = 0 To 7
@@ -81,7 +81,7 @@
             Next
         Next
     End Sub
-    '!this is to select pic box
+    '!!this is to select pic box
     Public Function selection(ByVal x, ByVal y) As String
         If game_flag = True Then
             If board(x, y) <> 0 Then
@@ -333,7 +333,7 @@
     Public Sub show_chk()
         w_in_danger = False
         b_in_danger = False
-        '''''''''''''''''''''''''''''''''''''''''Black Check'''''''''''''''''''''''''''''''''''
+        '! Black Check
         For i As Integer = 0 To 7
             For j As Integer = 0 To 7
                 If check_for_black(i, j) = True And Form1.b_king.x_pos = i And Form1.b_king.y_pos = j Then
@@ -343,7 +343,7 @@
             Next
         Next
 
-        '''''''''''''''''''''''''''''''''''''''''White Check'''''''''''''''''''''''''''''''''''
+        '!White Check
         For i As Integer = 0 To 7
             For j As Integer = 0 To 7
                 If check_for_white(i, j) = True And Form1.w_king.x_pos = i And Form1.w_king.y_pos = j Then

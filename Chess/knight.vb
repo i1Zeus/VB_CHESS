@@ -4,7 +4,7 @@
     Private flags(7, 7) As Boolean
     Public check_the_king(7, 7) As Boolean
 
-    Public Sub New(ByVal x, ByVal y, ByVal p_val)   'color=+ve val if white color=-ve if black  
+    Public Sub New(ByVal x, ByVal y, ByVal p_val)   '!color=+ve val if white color=-ve if black  
         x_pos = x
         y_pos = y
         piece_val = p_val
@@ -24,7 +24,7 @@
         Return piece_val
     End Function
 
-    Public Function poss_mov() As Boolean(,)    ''to show possible moves
+    Public Function poss_mov() As Boolean(,)    '!'!to show possible moves
         re_flags()
         If piece_val > 0 Then
             white_mov()
@@ -36,28 +36,28 @@
     End Function
 
     Public Sub white_mov()
-        ''''''''''''''''''fornt left'''''''''''''''''''
+        '!!fornt left
         If x_pos + 2 <= 7 And y_pos - 1 >= 0 Then
             If Form1.ga.board(x_pos + 2, y_pos - 1) <= 0 Then
                 flags(x_pos + 2, y_pos - 1) = True
             End If
         End If
 
-        ''''''''''''''''''fornt right'''''''''''''''''''
+        '!!fornt right
         If x_pos + 2 <= 7 And y_pos + 1 <= 7 Then
             If Form1.ga.board(x_pos + 2, y_pos + 1) <= 0 Then
                 flags(x_pos + 2, y_pos + 1) = True
             End If
         End If
 
-        ''''''''''''''''''Back left'''''''''''''''''''
+        '!!Back left
         If x_pos - 2 >= 0 And y_pos - 1 >= 0 Then
             If Form1.ga.board(x_pos - 2, y_pos - 1) <= 0 Then
                 flags(x_pos - 2, y_pos - 1) = True
             End If
         End If
 
-        ''''''''''''''''''Back right'''''''''''''''''''
+        '!!Back right
         If x_pos - 2 >= 0 And y_pos + 1 <= 7 Then
             If Form1.ga.board(x_pos - 2, y_pos + 1) <= 0 Then
                 flags(x_pos - 2, y_pos + 1) = True
@@ -65,28 +65,28 @@
         End If
 
 
-        ''''''''''''''''''right back'''''''''''''''''''
+        '!!right back
         If x_pos - 1 >= 0 And y_pos + 2 <= 7 Then
             If Form1.ga.board(x_pos - 1, y_pos + 2) <= 0 Then
                 flags(x_pos - 1, y_pos + 2) = True
             End If
         End If
 
-        ''''''''''''''''''right front'''''''''''''''''''
+        '!!right front
         If x_pos + 1 <= 7 And y_pos + 2 <= 7 Then
             If Form1.ga.board(x_pos + 1, y_pos + 2) <= 0 Then
                 flags(x_pos + 1, y_pos + 2) = True
             End If
         End If
 
-        ''''''''''''''''''left back'''''''''''''''''''
+        '!!left back
         If x_pos - 1 >= 0 And y_pos - 2 >= 0 Then
             If Form1.ga.board(x_pos - 1, y_pos - 2) <= 0 Then
                 flags(x_pos - 1, y_pos - 2) = True
             End If
         End If
 
-        ''''''''''''''''''left front'''''''''''''''''''
+        '!!left front
         If x_pos + 1 <= 7 And y_pos - 2 >= 0 Then
             If Form1.ga.board(x_pos + 1, y_pos - 2) <= 0 Then
                 flags(x_pos + 1, y_pos - 2) = True
@@ -96,28 +96,28 @@
     End Sub
 
     Public Sub black_mov()
-        ''''''''''''''''''fornt left'''''''''''''''''''
+        '!!fornt left
         If x_pos + 2 <= 7 And y_pos - 1 >= 0 Then
             If Form1.ga.board(x_pos + 2, y_pos - 1) >= 0 Then
                 flags(x_pos + 2, y_pos - 1) = True
             End If
         End If
 
-        ''''''''''''''''''fornt right'''''''''''''''''''
+        '!!fornt right
         If x_pos + 2 <= 7 And y_pos + 1 <= 7 Then
             If Form1.ga.board(x_pos + 2, y_pos + 1) >= 0 Then
                 flags(x_pos + 2, y_pos + 1) = True
             End If
         End If
 
-        ''''''''''''''''''Back left'''''''''''''''''''
+        '!!Back left
         If x_pos - 2 >= 0 And y_pos - 1 >= 0 Then
             If Form1.ga.board(x_pos - 2, y_pos - 1) >= 0 Then
                 flags(x_pos - 2, y_pos - 1) = True
             End If
         End If
 
-        ''''''''''''''''''Back right'''''''''''''''''''
+        '!!Back right
         If x_pos - 2 >= 0 And y_pos + 1 <= 7 Then
             If Form1.ga.board(x_pos - 2, y_pos + 1) >= 0 Then
                 flags(x_pos - 2, y_pos + 1) = True
@@ -125,28 +125,28 @@
         End If
 
 
-        ''''''''''''''''''right back'''''''''''''''''''
+        '!!right back
         If x_pos - 1 >= 0 And y_pos + 2 <= 7 Then
             If Form1.ga.board(x_pos - 1, y_pos + 2) >= 0 Then
                 flags(x_pos - 1, y_pos + 2) = True
             End If
         End If
 
-        ''''''''''''''''''right front'''''''''''''''''''
+        '!!right front
         If x_pos + 1 <= 7 And y_pos + 2 <= 7 Then
             If Form1.ga.board(x_pos + 1, y_pos + 2) >= 0 Then
                 flags(x_pos + 1, y_pos + 2) = True
             End If
         End If
 
-        ''''''''''''''''''left back'''''''''''''''''''
+        '!!left back
         If x_pos - 1 >= 0 And y_pos - 2 >= 0 Then
             If Form1.ga.board(x_pos - 1, y_pos - 2) >= 0 Then
                 flags(x_pos - 1, y_pos - 2) = True
             End If
         End If
 
-        ''''''''''''''''''left front'''''''''''''''''''
+        '!!left front
         If x_pos + 1 <= 7 And y_pos - 2 >= 0 Then
             If Form1.ga.board(x_pos + 1, y_pos - 2) >= 0 Then
                 flags(x_pos + 1, y_pos - 2) = True
