@@ -1263,8 +1263,12 @@
     End Sub
     Private Sub stopGame_Click(sender As Object, e As EventArgs) Handles stopGame.Click
         Timer1.Stop()
+        won.Visible = True
+        won.Text = "Paused"
+        won.TextAlign = ContentAlignment.MiddleCenter
     End Sub
     Private Sub Reusme_Click(sender As Object, e As EventArgs) Handles Reusme.Click
         Timer1.Start()
+        won.Visible = False
     End Sub
 End Class

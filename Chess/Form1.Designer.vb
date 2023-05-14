@@ -94,6 +94,7 @@ Partial Class Form1
         Me.Reusme = New System.Windows.Forms.Button()
         Me.stopGame = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.won = New System.Windows.Forms.Label()
         CType(Me.p70, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p71, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.p72, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -877,6 +878,20 @@ Partial Class Form1
         '
         Me.Timer1.Interval = 1000
         '
+        'won
+        '
+        Me.won.AutoSize = True
+        Me.won.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.won.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.won.Font = New System.Drawing.Font("Snap ITC", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.won.ForeColor = System.Drawing.Color.Black
+        Me.won.Location = New System.Drawing.Point(89, 313)
+        Me.won.Name = "won"
+        Me.won.Size = New System.Drawing.Size(540, 103)
+        Me.won.TabIndex = 66
+        Me.won.Text = "White Won"
+        Me.won.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -884,6 +899,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.Chess.My.Resources.Resources.MainBG
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(966, 722)
+        Me.Controls.Add(Me.won)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.p07)
         Me.Controls.Add(Me.p06)
@@ -953,7 +969,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Chess Game"
-        Me.TransparencyKey = System.Drawing.Color.Transparent
+        Me.TransparencyKey = System.Drawing.Color.IndianRed
         CType(Me.p70, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p71, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.p72, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1021,6 +1037,7 @@ Partial Class Form1
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents p70 As System.Windows.Forms.PictureBox
@@ -1093,4 +1110,5 @@ Partial Class Form1
     Friend WithEvents stopGame As Button
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Label1 As Label
+    Friend WithEvents won As Label
 End Class

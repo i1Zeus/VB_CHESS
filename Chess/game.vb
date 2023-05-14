@@ -28,7 +28,10 @@
         End If
         If game_flag = False Then
             Form1.Timer1.Stop()
-            MsgBox("White Won " & "Time: " & Form1.Minutes & " : " & Form1.Seconds)
+            Form1.won.Visible = True
+            Form1.won.Text = "White Won"
+
+            '  MsgBox("White Won " & "Time: " & Form1.Minutes & " : " & Form1.Seconds)
             Exit Sub
         End If
         If Form1.w_king.x_pos = x And Form1.w_king.y_pos = y And selected <> "w_king" Then
@@ -36,7 +39,9 @@
         End If
         If game_flag = False Then
             Form1.Timer1.Stop()
-            MsgBox("White Won " & "Time: " & Form1.Minutes & " : " & Form1.Seconds)
+            Form1.won.Visible = True
+            Form1.won.Text = "Black Won"
+            ' MsgBox("White Won " & "Time: " & Form1.Minutes & " : " & Form1.Seconds)
             Exit Sub
         End If
     End Sub
