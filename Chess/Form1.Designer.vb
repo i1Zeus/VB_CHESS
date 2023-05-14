@@ -175,7 +175,7 @@ Partial Class Form1
         'p71
         '
         Me.p71.BackColor = System.Drawing.Color.Transparent
-        Me.p71.Location = New System.Drawing.Point(108, 613)
+        Me.p71.Location = New System.Drawing.Point(107, 613)
         Me.p71.Name = "p71"
         Me.p71.Size = New System.Drawing.Size(87, 85)
         Me.p71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -185,7 +185,7 @@ Partial Class Form1
         'p72
         '
         Me.p72.BackColor = System.Drawing.Color.Transparent
-        Me.p72.Location = New System.Drawing.Point(194, 613)
+        Me.p72.Location = New System.Drawing.Point(191, 613)
         Me.p72.Name = "p72"
         Me.p72.Size = New System.Drawing.Size(87, 85)
         Me.p72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -205,7 +205,7 @@ Partial Class Form1
         'p74
         '
         Me.p74.BackColor = System.Drawing.Color.Transparent
-        Me.p74.Location = New System.Drawing.Point(362, 613)
+        Me.p74.Location = New System.Drawing.Point(359, 612)
         Me.p74.Name = "p74"
         Me.p74.Size = New System.Drawing.Size(87, 85)
         Me.p74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -215,7 +215,7 @@ Partial Class Form1
         'p75
         '
         Me.p75.BackColor = System.Drawing.Color.Transparent
-        Me.p75.Location = New System.Drawing.Point(443, 610)
+        Me.p75.Location = New System.Drawing.Point(443, 612)
         Me.p75.Name = "p75"
         Me.p75.Size = New System.Drawing.Size(87, 85)
         Me.p75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -235,7 +235,7 @@ Partial Class Form1
         'p77
         '
         Me.p77.BackColor = System.Drawing.Color.Transparent
-        Me.p77.Location = New System.Drawing.Point(612, 613)
+        Me.p77.Location = New System.Drawing.Point(612, 614)
         Me.p77.Name = "p77"
         Me.p77.Size = New System.Drawing.Size(87, 85)
         Me.p77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -275,7 +275,7 @@ Partial Class Form1
         'p64
         '
         Me.p64.BackColor = System.Drawing.Color.Transparent
-        Me.p64.Location = New System.Drawing.Point(362, 530)
+        Me.p64.Location = New System.Drawing.Point(359, 530)
         Me.p64.Name = "p64"
         Me.p64.Size = New System.Drawing.Size(87, 85)
         Me.p64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -295,7 +295,7 @@ Partial Class Form1
         'p62
         '
         Me.p62.BackColor = System.Drawing.Color.Transparent
-        Me.p62.Location = New System.Drawing.Point(195, 529)
+        Me.p62.Location = New System.Drawing.Point(193, 529)
         Me.p62.Name = "p62"
         Me.p62.Size = New System.Drawing.Size(87, 85)
         Me.p62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -336,7 +336,7 @@ Partial Class Form1
         'p56
         '
         Me.p56.BackColor = System.Drawing.Color.Transparent
-        Me.p56.Location = New System.Drawing.Point(528, 446)
+        Me.p56.Location = New System.Drawing.Point(527, 445)
         Me.p56.Name = "p56"
         Me.p56.Size = New System.Drawing.Size(87, 85)
         Me.p56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -346,7 +346,7 @@ Partial Class Form1
         'p55
         '
         Me.p55.BackColor = System.Drawing.Color.Transparent
-        Me.p55.Location = New System.Drawing.Point(445, 446)
+        Me.p55.Location = New System.Drawing.Point(443, 446)
         Me.p55.Name = "p55"
         Me.p55.Size = New System.Drawing.Size(87, 85)
         Me.p55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -356,7 +356,7 @@ Partial Class Form1
         'p54
         '
         Me.p54.BackColor = System.Drawing.Color.Transparent
-        Me.p54.Location = New System.Drawing.Point(362, 446)
+        Me.p54.Location = New System.Drawing.Point(360, 446)
         Me.p54.Name = "p54"
         Me.p54.Size = New System.Drawing.Size(87, 85)
         Me.p54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -366,7 +366,7 @@ Partial Class Form1
         'p53
         '
         Me.p53.BackColor = System.Drawing.Color.Transparent
-        Me.p53.Location = New System.Drawing.Point(276, 446)
+        Me.p53.Location = New System.Drawing.Point(275, 446)
         Me.p53.Name = "p53"
         Me.p53.Size = New System.Drawing.Size(87, 85)
         Me.p53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -376,7 +376,7 @@ Partial Class Form1
         'p52
         '
         Me.p52.BackColor = System.Drawing.Color.Transparent
-        Me.p52.Location = New System.Drawing.Point(194, 446)
+        Me.p52.Location = New System.Drawing.Point(190, 444)
         Me.p52.Name = "p52"
         Me.p52.Size = New System.Drawing.Size(87, 85)
         Me.p52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -386,7 +386,7 @@ Partial Class Form1
         'p51
         '
         Me.p51.BackColor = System.Drawing.Color.Transparent
-        Me.p51.Location = New System.Drawing.Point(108, 446)
+        Me.p51.Location = New System.Drawing.Point(106, 446)
         Me.p51.Name = "p51"
         Me.p51.Size = New System.Drawing.Size(87, 85)
         Me.p51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -397,7 +397,7 @@ Partial Class Form1
         '
         Me.p50.BackColor = System.Drawing.Color.Transparent
         Me.p50.InitialImage = Global.Chess.My.Resources.Resources.wRook
-        Me.p50.Location = New System.Drawing.Point(24, 446)
+        Me.p50.Location = New System.Drawing.Point(24, 445)
         Me.p50.Name = "p50"
         Me.p50.Size = New System.Drawing.Size(87, 85)
         Me.p50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -437,7 +437,7 @@ Partial Class Form1
         'p44
         '
         Me.p44.BackColor = System.Drawing.Color.Transparent
-        Me.p44.Location = New System.Drawing.Point(363, 360)
+        Me.p44.Location = New System.Drawing.Point(359, 360)
         Me.p44.Name = "p44"
         Me.p44.Size = New System.Drawing.Size(87, 85)
         Me.p44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -457,7 +457,7 @@ Partial Class Form1
         'p42
         '
         Me.p42.BackColor = System.Drawing.Color.Transparent
-        Me.p42.Location = New System.Drawing.Point(195, 360)
+        Me.p42.Location = New System.Drawing.Point(191, 361)
         Me.p42.Name = "p42"
         Me.p42.Size = New System.Drawing.Size(87, 85)
         Me.p42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -467,7 +467,7 @@ Partial Class Form1
         'p41
         '
         Me.p41.BackColor = System.Drawing.Color.Transparent
-        Me.p41.Location = New System.Drawing.Point(109, 360)
+        Me.p41.Location = New System.Drawing.Point(107, 362)
         Me.p41.Name = "p41"
         Me.p41.Size = New System.Drawing.Size(87, 85)
         Me.p41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -478,7 +478,7 @@ Partial Class Form1
         '
         Me.p40.BackColor = System.Drawing.Color.Transparent
         Me.p40.InitialImage = Global.Chess.My.Resources.Resources.wRook
-        Me.p40.Location = New System.Drawing.Point(25, 360)
+        Me.p40.Location = New System.Drawing.Point(23, 362)
         Me.p40.Name = "p40"
         Me.p40.Size = New System.Drawing.Size(87, 85)
         Me.p40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -498,7 +498,7 @@ Partial Class Form1
         'p36
         '
         Me.p36.BackColor = System.Drawing.Color.Transparent
-        Me.p36.Location = New System.Drawing.Point(529, 278)
+        Me.p36.Location = New System.Drawing.Point(527, 278)
         Me.p36.Name = "p36"
         Me.p36.Size = New System.Drawing.Size(87, 85)
         Me.p36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -508,7 +508,7 @@ Partial Class Form1
         'p35
         '
         Me.p35.BackColor = System.Drawing.Color.Transparent
-        Me.p35.Location = New System.Drawing.Point(444, 278)
+        Me.p35.Location = New System.Drawing.Point(443, 278)
         Me.p35.Name = "p35"
         Me.p35.Size = New System.Drawing.Size(87, 85)
         Me.p35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -518,7 +518,7 @@ Partial Class Form1
         'p34
         '
         Me.p34.BackColor = System.Drawing.Color.Transparent
-        Me.p34.Location = New System.Drawing.Point(363, 278)
+        Me.p34.Location = New System.Drawing.Point(359, 278)
         Me.p34.Name = "p34"
         Me.p34.Size = New System.Drawing.Size(87, 85)
         Me.p34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -528,7 +528,7 @@ Partial Class Form1
         'p33
         '
         Me.p33.BackColor = System.Drawing.Color.Transparent
-        Me.p33.Location = New System.Drawing.Point(277, 277)
+        Me.p33.Location = New System.Drawing.Point(275, 277)
         Me.p33.Name = "p33"
         Me.p33.Size = New System.Drawing.Size(87, 85)
         Me.p33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -538,7 +538,7 @@ Partial Class Form1
         'p32
         '
         Me.p32.BackColor = System.Drawing.Color.Transparent
-        Me.p32.Location = New System.Drawing.Point(195, 278)
+        Me.p32.Location = New System.Drawing.Point(191, 278)
         Me.p32.Name = "p32"
         Me.p32.Size = New System.Drawing.Size(87, 85)
         Me.p32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -548,7 +548,7 @@ Partial Class Form1
         'p31
         '
         Me.p31.BackColor = System.Drawing.Color.Transparent
-        Me.p31.Location = New System.Drawing.Point(109, 278)
+        Me.p31.Location = New System.Drawing.Point(107, 278)
         Me.p31.Name = "p31"
         Me.p31.Size = New System.Drawing.Size(87, 85)
         Me.p31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -559,7 +559,7 @@ Partial Class Form1
         '
         Me.p30.BackColor = System.Drawing.Color.Transparent
         Me.p30.InitialImage = Global.Chess.My.Resources.Resources.wRook
-        Me.p30.Location = New System.Drawing.Point(25, 278)
+        Me.p30.Location = New System.Drawing.Point(23, 278)
         Me.p30.Name = "p30"
         Me.p30.Size = New System.Drawing.Size(87, 85)
         Me.p30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -599,9 +599,9 @@ Partial Class Form1
         'p24
         '
         Me.p24.BackColor = System.Drawing.Color.Transparent
-        Me.p24.Location = New System.Drawing.Point(362, 192)
+        Me.p24.Location = New System.Drawing.Point(359, 192)
         Me.p24.Name = "p24"
-        Me.p24.Size = New System.Drawing.Size(140, 85)
+        Me.p24.Size = New System.Drawing.Size(87, 85)
         Me.p24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.p24.TabIndex = 44
         Me.p24.TabStop = False
@@ -619,7 +619,7 @@ Partial Class Form1
         'p22
         '
         Me.p22.BackColor = System.Drawing.Color.Transparent
-        Me.p22.Location = New System.Drawing.Point(195, 192)
+        Me.p22.Location = New System.Drawing.Point(193, 192)
         Me.p22.Name = "p22"
         Me.p22.Size = New System.Drawing.Size(87, 85)
         Me.p22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -629,7 +629,7 @@ Partial Class Form1
         'p21
         '
         Me.p21.BackColor = System.Drawing.Color.Transparent
-        Me.p21.Location = New System.Drawing.Point(109, 192)
+        Me.p21.Location = New System.Drawing.Point(107, 192)
         Me.p21.Name = "p21"
         Me.p21.Size = New System.Drawing.Size(87, 85)
         Me.p21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -640,7 +640,7 @@ Partial Class Form1
         '
         Me.p20.BackColor = System.Drawing.Color.Transparent
         Me.p20.InitialImage = Global.Chess.My.Resources.Resources.wRook
-        Me.p20.Location = New System.Drawing.Point(25, 192)
+        Me.p20.Location = New System.Drawing.Point(23, 192)
         Me.p20.Name = "p20"
         Me.p20.Size = New System.Drawing.Size(87, 85)
         Me.p20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -660,7 +660,7 @@ Partial Class Form1
         'p16
         '
         Me.p16.BackColor = System.Drawing.Color.Transparent
-        Me.p16.Location = New System.Drawing.Point(529, 108)
+        Me.p16.Location = New System.Drawing.Point(527, 108)
         Me.p16.Name = "p16"
         Me.p16.Size = New System.Drawing.Size(87, 85)
         Me.p16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -680,7 +680,7 @@ Partial Class Form1
         'p14
         '
         Me.p14.BackColor = System.Drawing.Color.Transparent
-        Me.p14.Location = New System.Drawing.Point(362, 108)
+        Me.p14.Location = New System.Drawing.Point(358, 108)
         Me.p14.Name = "p14"
         Me.p14.Size = New System.Drawing.Size(87, 85)
         Me.p14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -690,7 +690,7 @@ Partial Class Form1
         'p13
         '
         Me.p13.BackColor = System.Drawing.Color.Transparent
-        Me.p13.Location = New System.Drawing.Point(276, 108)
+        Me.p13.Location = New System.Drawing.Point(275, 108)
         Me.p13.Name = "p13"
         Me.p13.Size = New System.Drawing.Size(87, 85)
         Me.p13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -700,7 +700,7 @@ Partial Class Form1
         'p12
         '
         Me.p12.BackColor = System.Drawing.Color.Transparent
-        Me.p12.Location = New System.Drawing.Point(194, 108)
+        Me.p12.Location = New System.Drawing.Point(191, 108)
         Me.p12.Name = "p12"
         Me.p12.Size = New System.Drawing.Size(87, 85)
         Me.p12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -710,7 +710,7 @@ Partial Class Form1
         'p11
         '
         Me.p11.BackColor = System.Drawing.Color.Transparent
-        Me.p11.Location = New System.Drawing.Point(108, 108)
+        Me.p11.Location = New System.Drawing.Point(107, 108)
         Me.p11.Name = "p11"
         Me.p11.Size = New System.Drawing.Size(87, 85)
         Me.p11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -721,7 +721,7 @@ Partial Class Form1
         '
         Me.p10.BackColor = System.Drawing.Color.Transparent
         Me.p10.InitialImage = Global.Chess.My.Resources.Resources.wRook
-        Me.p10.Location = New System.Drawing.Point(24, 108)
+        Me.p10.Location = New System.Drawing.Point(22, 108)
         Me.p10.Name = "p10"
         Me.p10.Size = New System.Drawing.Size(87, 85)
         Me.p10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -761,7 +761,7 @@ Partial Class Form1
         'p04
         '
         Me.p04.BackColor = System.Drawing.Color.Transparent
-        Me.p04.Location = New System.Drawing.Point(363, 23)
+        Me.p04.Location = New System.Drawing.Point(358, 23)
         Me.p04.Name = "p04"
         Me.p04.Size = New System.Drawing.Size(87, 85)
         Me.p04.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -781,7 +781,7 @@ Partial Class Form1
         'p02
         '
         Me.p02.BackColor = System.Drawing.Color.Transparent
-        Me.p02.Location = New System.Drawing.Point(195, 23)
+        Me.p02.Location = New System.Drawing.Point(191, 23)
         Me.p02.Name = "p02"
         Me.p02.Size = New System.Drawing.Size(87, 85)
         Me.p02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -791,7 +791,7 @@ Partial Class Form1
         'p01
         '
         Me.p01.BackColor = System.Drawing.Color.Transparent
-        Me.p01.Location = New System.Drawing.Point(109, 23)
+        Me.p01.Location = New System.Drawing.Point(107, 23)
         Me.p01.Name = "p01"
         Me.p01.Size = New System.Drawing.Size(87, 85)
         Me.p01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -802,7 +802,7 @@ Partial Class Form1
         '
         Me.p00.BackColor = System.Drawing.Color.Transparent
         Me.p00.InitialImage = Global.Chess.My.Resources.Resources.wRook
-        Me.p00.Location = New System.Drawing.Point(25, 23)
+        Me.p00.Location = New System.Drawing.Point(23, 23)
         Me.p00.Name = "p00"
         Me.p00.Size = New System.Drawing.Size(87, 85)
         Me.p00.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -814,6 +814,7 @@ Partial Class Form1
         '
         Me.Newgame.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Newgame.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Newgame.ForeColor = System.Drawing.Color.Black
         Me.Newgame.Location = New System.Drawing.Point(0, 253)
         Me.Newgame.Name = "Newgame"
         Me.Newgame.Size = New System.Drawing.Size(221, 45)
@@ -828,6 +829,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Reusme)
         Me.Panel1.Controls.Add(Me.stopGame)
         Me.Panel1.Controls.Add(Me.Newgame)
+        Me.Panel1.ForeColor = System.Drawing.Color.White
         Me.Panel1.Location = New System.Drawing.Point(723, 23)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(221, 675)
@@ -837,14 +839,13 @@ Partial Class Form1
         '
         Me.Label1.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Cursor = System.Windows.Forms.Cursors.AppStarting
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label1.Font = New System.Drawing.Font("Zilla Slab Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Zilla Slab Light", 18.0!, System.Drawing.FontStyle.Bold)
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(3, 201)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 29)
+        Me.Label1.Size = New System.Drawing.Size(88, 29)
         Me.Label1.TabIndex = 68
         Me.Label1.Text = "Timer:"
         '
@@ -852,6 +853,7 @@ Partial Class Form1
         '
         Me.Reusme.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Reusme.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Reusme.ForeColor = System.Drawing.Color.Black
         Me.Reusme.Location = New System.Drawing.Point(0, 314)
         Me.Reusme.Name = "Reusme"
         Me.Reusme.Size = New System.Drawing.Size(221, 45)
@@ -863,6 +865,7 @@ Partial Class Form1
         '
         Me.stopGame.Cursor = System.Windows.Forms.Cursors.Hand
         Me.stopGame.Font = New System.Drawing.Font("Zilla Slab Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stopGame.ForeColor = System.Drawing.Color.Black
         Me.stopGame.Location = New System.Drawing.Point(0, 375)
         Me.stopGame.Name = "stopGame"
         Me.stopGame.Size = New System.Drawing.Size(221, 45)
@@ -946,6 +949,7 @@ Partial Class Form1
         Me.Controls.Add(Me.p72)
         Me.Controls.Add(Me.p71)
         Me.Controls.Add(Me.p70)
+        Me.ForeColor = System.Drawing.Color.White
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Chess Game"
