@@ -882,10 +882,9 @@ Partial Class Form1
         '
         Me.won.AutoSize = True
         Me.won.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.won.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.won.Font = New System.Drawing.Font("Snap ITC", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.won.ForeColor = System.Drawing.Color.Black
-        Me.won.Location = New System.Drawing.Point(89, 313)
+        Me.won.Location = New System.Drawing.Point(86, 313)
         Me.won.Name = "won"
         Me.won.Size = New System.Drawing.Size(540, 103)
         Me.won.TabIndex = 66
