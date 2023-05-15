@@ -514,10 +514,6 @@
                 player = 1
                 chk_winner(selected, x, y)
             Case Else
-
         End Select
-
-
     End Sub
-
 End Class

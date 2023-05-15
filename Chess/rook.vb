@@ -4,7 +4,7 @@
     Private flags(7, 7) As Boolean
     Public check_the_king(7, 7) As Boolean
 
-    Public Sub New(ByVal x, ByVal y, ByVal p_val)   'color=+ve val if white color=-ve if black  
+    Public Sub New(ByVal x, ByVal y, ByVal p_val)   '!color=+ve val if white color=-ve if black  
         x_pos = x
         y_pos = y
         piece_val = p_val

@@ -681,7 +681,7 @@ Partial Class Form1
         'p14
         '
         Me.p14.BackColor = System.Drawing.Color.Transparent
-        Me.p14.Location = New System.Drawing.Point(358, 108)
+        Me.p14.Location = New System.Drawing.Point(359, 108)
         Me.p14.Name = "p14"
         Me.p14.Size = New System.Drawing.Size(87, 85)
         Me.p14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -884,11 +884,11 @@ Partial Class Form1
         Me.won.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.won.Font = New System.Drawing.Font("Snap ITC", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.won.ForeColor = System.Drawing.Color.Black
-        Me.won.Location = New System.Drawing.Point(86, 313)
+        Me.won.Location = New System.Drawing.Point(82, 310)
         Me.won.Name = "won"
-        Me.won.Size = New System.Drawing.Size(540, 103)
+        Me.won.Size = New System.Drawing.Size(568, 103)
         Me.won.TabIndex = 66
-        Me.won.Text = "White Won"
+        Me.won.Text = "Player Won"
         Me.won.Visible = False
         '
         'Form1

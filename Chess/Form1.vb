@@ -40,6 +40,7 @@
     End Sub
 
     Public Sub all_objects()
+        '! WHITE PIECES OBJECTS
         w_king = New king(0, 4, 1)
         w_queen = New queen(0, 3, 2)
         w_bishop(0) = New bishop(0, 2, 3)

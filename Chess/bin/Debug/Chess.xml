@@ -62,11 +62,6 @@ Chess
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:Chess.My.Resources.Resources.game_mainBg_07___Copy">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:Chess.My.Resources.Resources.MainBG">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

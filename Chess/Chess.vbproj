@@ -182,9 +182,6 @@
     <None Include="Resources\Aha-Soft-Chess-Chess.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\game_mainBg_07 - Copy.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\wMove.png" />
   </ItemGroup>
   <ItemGroup>
@@ -231,9 +228,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wKnight.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\game_piece.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\selection .png" />
