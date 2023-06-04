@@ -671,7 +671,7 @@ Partial Class Form1
         'p15
         '
         Me.p15.BackColor = System.Drawing.Color.Transparent
-        Me.p15.Location = New System.Drawing.Point(443, 108)
+        Me.p15.Location = New System.Drawing.Point(443, 109)
         Me.p15.Name = "p15"
         Me.p15.Size = New System.Drawing.Size(87, 85)
         Me.p15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -742,7 +742,7 @@ Partial Class Form1
         'p06
         '
         Me.p06.BackColor = System.Drawing.Color.Transparent
-        Me.p06.Location = New System.Drawing.Point(529, 23)
+        Me.p06.Location = New System.Drawing.Point(528, 24)
         Me.p06.Name = "p06"
         Me.p06.Size = New System.Drawing.Size(87, 85)
         Me.p06.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -762,7 +762,7 @@ Partial Class Form1
         'p04
         '
         Me.p04.BackColor = System.Drawing.Color.Transparent
-        Me.p04.Location = New System.Drawing.Point(358, 23)
+        Me.p04.Location = New System.Drawing.Point(359, 24)
         Me.p04.Name = "p04"
         Me.p04.Size = New System.Drawing.Size(87, 85)
         Me.p04.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
