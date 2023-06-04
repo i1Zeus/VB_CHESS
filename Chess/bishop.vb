@@ -39,7 +39,7 @@
         Dim i As Integer = x_pos
         Dim j As Integer = y_pos
 
-        ''''''''''''''''''''''''' diagnoal left bottom to top (backward) '''''''''''''''''''''''''''
+        '! diagnoal left bottom to top (backward)
         While (i < 7 And j > 0)
             i = i + 1
             j = j - 1
@@ -53,7 +53,7 @@
             End If
         End While
 
-        '''''''''''''''''''''''''diagnoal left bottom to top (forward) '''''''''''''''''''''''''''
+        '! diagnoal left bottom to top (forward)
         i = x_pos
         j = y_pos
         While (i > 0 And j < 7)
@@ -70,7 +70,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (backward) '''''''''''''''''''''''''''
+        '! diagnoal Right bottom to top (backward)
         i = x_pos
         j = y_pos
         While (i < 7 And j < 7)
@@ -87,7 +87,7 @@
         End While
 
 
-        '''''''''''''''''''''''''diagnoal Right bottom to top (forward) '''''''''''''''''''''''''''
+        '! diagnoal Right bottom to top (forward) 
         i = x_pos
         j = y_pos
         While (i > 0 And j > 0)
